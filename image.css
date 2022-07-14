@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bg{
+    background-color: white;
+    background-size: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+header>p {
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header>ul {
+    display: flex;
+}
+
+header>ul>li{
+    list-style-type: none;
+    margin-left: 1.5rem;
+}
+
+header>ul>li>a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 800;
+    padding-bottom: 5px;
+    color: black;
+}
+
+header>ul>li:nth-child(2)>a{
+    border-bottom: 5px solid black;
+}
+
+header>ul>li>a:hover{
+    border-bottom: 5px solid gray;
+}
+
+.image-box1{
+    text-align: center;
+    display:table;
+    border: 1px solid white;
+    width: 280px;
+    height: 250px;    
+    padding: 3rem;
+}
+
+.image-div1{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.image1{
+    max-width: 280px;
+    max-height: 250px; 
+}
+
+.image-box2{
+    text-align: center;
+    display:table;
+    border: 1px solid white;
+    width: 280px;
+    height: 250px;    
+    padding: 3rem;
+}
+
+.image-div2{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.image2{
+    max-width: 280px;
+    max-height: 250px; 
+}
+
+.image-box3{
+    text-align: center;
+    display:table;
+    border: 1px solid white;
+    width: 280px;
+    height: 250px;    
+    padding: 3rem;
+}
+
+.image-div3{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.image3{
+    max-width: 280px;
+    max-height: 250px; 
+}
+
+.image-box4{
+    text-align: center;
+    display:table;
+    border: 1px solid white;
+    width: 280px;
+    height: 250px;    
+    padding: 3rem;
+}
+
+.image-div4{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.image4{
+    max-width: 280px;
+    max-height: 250px; 
+}
+
