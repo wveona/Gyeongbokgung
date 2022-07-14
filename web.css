@@ -32,7 +32,7 @@ header {
 header>p {
     font-size: 3rem;
     font-weight: 700;
-    color: #DCDBE3;
+    color: white;
 }
 
 header>ul {
@@ -49,7 +49,7 @@ header>ul>li>a{
     font-size: 2rem;
     font-weight: 800;
     padding-bottom: 5px;
-    color: #DCDBE3;
+    color: white;
 }
 
 header>ul>li:first-child>a{
@@ -64,14 +64,14 @@ section{
     padding: 0 3rem;
     font-size: 1.5rem;
     text-align: center;
-    color: #DCDBE3;
+    color: white;
 }
 
 section>p:first-child {
     padding-bottom: 1rem;
     font-size: 3rem;
     font-weight: 900;
-    color: #DCDBE3;
+    color: white;
 }
 
 section>p:last-of-type {
